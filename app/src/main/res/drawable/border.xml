@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Outer shape with transparent center (acts as the padding) -->
+    <item>
+        <shape>
+            <solid android:color="#00000000"/> <!-- Transparent center -->
+
+            <stroke
+                android:width="2dp"
+                android:color="@color/white"/>
+
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+
+    <!-- Inner shape with the background color and smaller corners -->
+    <item android:top="2dp" android:right="2dp" android:bottom="2dp" android:left="2dp">
+        <shape>
+            <solid android:color="#FFFFFF"/> <!-- Actual background color -->
+
+            <!-- Define the inner corners radius -->
+            <corners android:radius="2dp"/>
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_participate"
+        android:title="Share with friends"/>
+    <item android:id="@+id/action_all_activity"
+        android:title="Share on Whatsapp"/>
+</menu>
